@@ -1,0 +1,72 @@
+#navbartop{
+    margin-bottom: 0px;
+}
+#brandName{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 70px;
+    color: #66512c;
+    text-shadow: 1px 1px grey;
+}
+
+#mainContent{
+    position: relative;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px;
+    height: 70vh;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#inputBox{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    width: 90%;
+    /*margin-right: 20px;*/
+    padding: 0px;
+}
+#inputBox input{
+    width: 92%;
+    box-shadow: 5px 5px 2px grey;
+    border-radius: 5px;
+}
+
+div.userQuery{
+
+    float: right;
+    background-color: darkgray;
+    color: orangered;
+    margin : 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+div.chatbotQuery{
+    float: left;
+    background-color: grey;
+    color: #c9302c;
+/*    margin : 10px;*/
+    text-align: center;
+    line-height: 20px;
+    height: 90px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+/*    padding-left:5px;*/
+/*    padding: 10px !important;*/
+}
+
+div#appendIn{
+    height: 55vh;
+    /*border: 1px solid black;*/
+    overflow-y: scroll;
+}
+
+#enterButton{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
